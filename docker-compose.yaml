@@ -1,0 +1,6 @@
+services:
+  spec:
+    build: .
+    volumes:
+      - .:/app
+    command: bundle exec rspec
