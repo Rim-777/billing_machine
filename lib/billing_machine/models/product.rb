@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module BillingMachine
   class Product
     EXEMPT_PRODUCTS = %w[book chocolate pill].freeze
